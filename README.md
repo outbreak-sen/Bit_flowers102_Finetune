@@ -6,6 +6,22 @@ transformers+pytorch+3090的benchmark是自己编写的，仓库位于https://gi
 更改代码位于llm/finetune/bit，只包含mindnlp+mindspore的
 实验结果如下
 
+## 硬件
+
+资源规格：NPU: 1*Ascend-D910B(显存: 64GB), CPU: 24, 内存: 192GB
+
+智算中心：武汉智算中心
+
+镜像：mindspore_2_5_py311_cann8
+
+torch训练硬件资源规格：Nvidia 3090
+
+## 模型与数据集
+
+模型："HorcruxNo13/bit-50"
+
+数据集："dpdl-benchmark/oxford_flowers102"
+
 ## Eval Loss Values 表格
 
 | Epoch | mindNLP       | torch         |
